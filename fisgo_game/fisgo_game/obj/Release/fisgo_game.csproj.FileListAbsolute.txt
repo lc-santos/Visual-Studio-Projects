@@ -1,0 +1,10 @@
+C:\Users\LC\source\repos\fisgo_game\fisgo_game\bin\Release\fisgo_game.exe.config
+C:\Users\LC\source\repos\fisgo_game\fisgo_game\bin\Release\fisgo_game.exe
+C:\Users\LC\source\repos\fisgo_game\fisgo_game\bin\Release\fisgo_game.pdb
+C:\Users\LC\source\repos\fisgo_game\fisgo_game\obj\Release\fisgo_game.csproj.AssemblyReference.cache
+C:\Users\LC\source\repos\fisgo_game\fisgo_game\obj\Release\fisgo_game.FisgoCaves.resources
+C:\Users\LC\source\repos\fisgo_game\fisgo_game\obj\Release\fisgo_game.Properties.Resources.resources
+C:\Users\LC\source\repos\fisgo_game\fisgo_game\obj\Release\fisgo_game.csproj.GenerateResource.cache
+C:\Users\LC\source\repos\fisgo_game\fisgo_game\obj\Release\fisgo_game.csproj.CoreCompileInputs.cache
+C:\Users\LC\source\repos\fisgo_game\fisgo_game\obj\Release\fisgo_game.exe
+C:\Users\LC\source\repos\fisgo_game\fisgo_game\obj\Release\fisgo_game.pdb
