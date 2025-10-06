@@ -10,13 +10,17 @@ using System.Windows.Forms;
 using MosaicoSolutions.ViaCep;
 using Newtonsoft.Json.Bson;
 
+
 namespace APPfuncionario
 {
     public partial class FrmCadastro : Form
     {
+        bool camposhabilitados = true;
         public FrmCadastro()
         {
             InitializeComponent();
+            
+
         }
 
         private void lblestate_Click(object sender, EventArgs e)
@@ -51,13 +55,10 @@ namespace APPfuncionario
 
         }
 
-        private void btnnew_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void DesabilitarCampos()
         {
+            txtname.Enabled = false;
             txtcep.Enabled = false;
             txtcomp.Enabled = false;
             txtbairro.Enabled = false;
@@ -72,6 +73,7 @@ namespace APPfuncionario
 
         private void HabilitarCampos()
         {
+            txtname.Enabled = true;
             txtcep.Enabled = true;
             txtcomp.Enabled = true;
             txtbairro.Enabled = true;
@@ -83,6 +85,23 @@ namespace APPfuncionario
             mskcpf.Enabled = true;
             txtrg.Enabled = true;
         }
+
+
+        private void btnnew_Click(object sender, EventArgs e)
+        {
+            if (camposhabilitados)
+            {
+                DesabilitarCampos();
+                camposhabilitados = false;
+            }
+            else
+            {
+                HabilitarCampos();
+                camposhabilitados = true;
+            }
+        }
+
+
 
         private void buscarCEP(string cep)
         {
